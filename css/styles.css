@@ -10133,6 +10133,7 @@ h3 {
 }
 .masthead .masthead-avatar {
   width: 15rem;
+  border: 5px solid #581845; 
 }
 
 @media (min-width: 992px) {
