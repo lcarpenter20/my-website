@@ -2443,8 +2443,8 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #581845;
-  border-color: #581845;
+  background-color: #bfbcff;
+  border-color: #bfbcff;
 }
 .btn-primary:hover {
   color: #fff;
@@ -2459,12 +2459,12 @@ fieldset:disabled a.btn {
 }
 .btn-primary.disabled, .btn-primary:disabled {
   color: #fff;
-  background-color: #581845;
-  border-color: #581845;
+  background-color: #bfbcff;
+  border-color: #bfbcff;
 }
 .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #581845;
+  background-color: #bfbcff;
   border-color: #581845;
 }
 .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus, .show > .btn-primary.dropdown-toggle:focus {
@@ -3470,8 +3470,7 @@ input[type=button].btn-block {
   display: block;
   min-height: 1.5rem;
   padding-left: 1.5rem;
-  -webkit-print-color-adjust: exact;
-          color-adjust: exact;
+  accent-color: exact;
 }
 
 .custom-control-inline {
@@ -6090,7 +6089,7 @@ button.bg-primary:focus {
 }
 
 .bg-secondary {
-  background-color: #581845 !important;
+  background-color: #BFBCFF !important;
 }
 
 a.bg-secondary:hover, a.bg-secondary:focus,
@@ -10010,9 +10009,9 @@ h3 {
   width: 100%;
   max-width: 7rem;
   height: 0.25rem;
-  background-color: #581845;
+  background-color: #bfbcff;
   border-radius: 1rem;
-  border-color: #581845 !important;
+  border-color: #bfbcff !important;
 }
 .divider-custom .divider-custom-line:first-child {
   margin-right: 1rem;
@@ -10021,14 +10020,14 @@ h3 {
   margin-left: 1rem;
 }
 .divider-custom .divider-custom-icon {
-  color: #581845 !important;
+  color: #bfbcff !important;
   font-size: 2rem;
 }
 .divider-custom.divider-light .divider-custom-line {
-  background-color: #581845;
+  background-color: #bfbcff;
 }
 .divider-custom.divider-light .divider-custom-icon {
-  color: #581845 !important;
+  color: #bfbcff !important;
 }
 
 .btn-xl {
@@ -10126,14 +10125,14 @@ h3 {
 .masthead .masthead-heading {
   font-size: 2.75rem;
   line-height: 2.75rem;
-  color: #581845;
+  color: #bfbcff;
 }
 .masthead .masthead-subheading {
   font-size: 1.25rem;
 }
 .masthead .masthead-avatar {
   width: 15rem;
-  border: 5px solid #581845; 
+  border: 5px solid #bfbcff; 
 }
 
 @media (min-width: 992px) {
@@ -10189,7 +10188,7 @@ h3 {
   top: 1rem;
   font-size: 3rem;
   line-height: 3rem;
-  color: #581845;
+  color: #bfbcff;
   opacity: 1;
 }
 
@@ -10242,7 +10241,7 @@ form .row:first-child .floating-label-form-group {
 .footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: #581845;
+  background-color: #bfbcff;
   color: #fff;
 }
 
