@@ -3871,7 +3871,7 @@ input[type=button].btn-block {
   }
 }
 
-:root { --brand-purple: #a99adf; } /* your purple */
+:root { --brand-purple: #a99adf; }
 
 /* Navbar container: brand left, links right, never stack brand+links */
 #mainNav {
@@ -3895,14 +3895,19 @@ input[type=button].btn-block {
   list-style: none;                   /* safety */
   padding-left: 0;
   margin-bottom: 0;
+  font-size: clamp(1.25rem, 2.2vw, 1.75rem); /* ~20px → ~28px */
+  font-weight: 700;
+  line-height: 1.2;
 }
 
 /* Link spacing/appearance */
 #mainNav .nav-link {
   display: block;
   padding: .5rem .25rem;
-  color: #fff;                        /* readable on purple */
+  color: #fff;                       
   text-decoration: none;
+  font-size: clamp(1rem, 1.6vw, 1.125rem);   /* ~16px → ~18px */
+  line-height: 1.2;
 }
 #mainNav .nav-link:hover,
 #mainNav .nav-link:focus {
@@ -3913,7 +3918,6 @@ input[type=button].btn-block {
 /* Optional: brand text color */
 #mainNav .navbar-brand { color: #fff; text-decoration: none; }
 #mainNav .navbar-brand:hover { color: #fff; }
-
 
 .card {
   position: relative;
